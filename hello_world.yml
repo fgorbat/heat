@@ -23,3 +23,4 @@ resources:
       key_name: { get_param: key_name }
       image: { get_param: image_id }
       flavor: { get_param: flavor }
+
