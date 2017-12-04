@@ -4,7 +4,7 @@ metadata:
   name: svc-nginx
 spec:
   selector:
-    app: deployment-nginx
+    app: app-nginx
   type: "NodePort"
   ports:
   - port: 8080
